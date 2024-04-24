@@ -13,7 +13,7 @@
 
 def read_input(): #For reading the input text file
     input_data = []  # empty list
-    with open('C:\\Users\\Lenovo\\OneDrive\\Desktop\\CSF101\\CSF101CAP\\input_1_cap1.txt', 'r') as file: #copied my given input_1_cap1 as a path and used doubleslashes to interpret it as literal characters not escape characters
+    with open('input_1_cap1.txt', 'r') as file: #copied my given input_1_cap1 as a path 
         lines = file.readlines()#To read all the lines from file
         for line in lines:
             my_move, desired_outcome = line.strip().split() # to make it easier to process the data accurately by removing unnnessary space and to separate diff. parts of string
